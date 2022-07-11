@@ -1,0 +1,59 @@
+@media only screen and (max-width: 730px) {
+  .poster{
+    display: none;
+  }
+  .plotdesc{
+    flex-wrap: wrap;
+  }
+}
+body {
+    font-family: var(--font-roboto);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-image: url(./pexels-gradienta-7130560.jpg) ; */
+    
+  }
+  pre{
+    display: inline;
+    font-size: large;
+  }
+  .plotdesc{
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .movieposter{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  .rating{
+      display: flex;flex-direction: row;
+      align-content: center;
+  }
+.poster{
+    padding: 12px;
+    height: 23rem;
+  }
+  .main{
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 11%;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 24px;
+    /* background-image: url(http://localhost:3000/static/media/pexels-gradienta-7130560.9915cbb….jpg); */
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color: #ffffff;
+    background-color: #0ed145;
+
+  }
+  .contain{
+    overflow: auto;
+    padding: 46px;
+  }
